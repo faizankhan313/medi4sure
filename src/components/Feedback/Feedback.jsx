@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { Row, Col, Form, Button } from "react-bootstrap";
 import "./Feedback.css";
 
@@ -23,6 +24,27 @@ export const Feedback = () => {
         </Col>
         <Col lg={2}></Col>
       </Row>
+=======
+import Button from "@restart/ui/esm/Button";
+import { Row, Form, Col } from "react-bootstrap";
+import "./feedback.css"
+export const Feedback = () => {
+  return (
+    <Form>
+    <Row>
+    
+     <>
+  <Form.Control size="lg" type="text" placeholder="Large text" />
+  <br />
+  <Form.Control type="text" placeholder="Normal text" />
+  <br />
+  <Form.Control size="sm" type="text" placeholder="Small text" />
+</>
+
+
+     
+    </Row>
+>>>>>>> Stashed changes
     </Form>
   );
 };
